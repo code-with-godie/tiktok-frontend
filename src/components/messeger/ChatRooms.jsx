@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { Settings } from '@mui/icons-material';
 import Room from './Room';
-import person1 from '../../assets/person/1.jpeg';
-import person2 from '../../assets/person/2.jpeg';
 import MessegerSettings from './MessegerSettings';
 import Model from '../../components/models/Model';
 import { useFetch } from '../../api/useFetch';
