@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import ProfileHeader from './ProfileHeader';
 import UsersPosts from './UsersPosts';
-import { useFetch } from '../../api/useFetch';
 import { useAppContext } from '../../context/AppContext';
 
 const Container = styled.div`

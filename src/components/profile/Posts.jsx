@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { posts } from '../../data/data';
 
 import Post from './Post';
-import {
-    Person2Outlined,
-    PersonOutline,
-    PersonOutlineOutlined,
-} from '@mui/icons-material';
+import { PersonOutlineOutlined } from '@mui/icons-material';
 const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
